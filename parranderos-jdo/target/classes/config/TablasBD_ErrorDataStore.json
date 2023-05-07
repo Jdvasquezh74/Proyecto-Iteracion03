@@ -1,0 +1,9 @@
+{
+	"title": "Nombres de las tablas de AlohAndes Uniandes para pruebas de la aplicación cuando la base de datos no existe o está caida",
+	"unidadPersistencia": "AlohAndesErrorDS",
+	"tablas":
+	[
+		"AlohAndes_sequence",
+		"X_USUARIO"
+	]
+}

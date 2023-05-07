@@ -1,0 +1,112 @@
+{
+	"title": "Aplicación transaccional de AlohAndes Uniandes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Operador",
+		  "options":
+			[
+				{
+					"label": "Registrar/Modificar",
+					"event": "registrarAdministrarOperador"
+				},
+				{
+					"label": "Listar",
+					"event": "listarUsuario"
+				},
+				{
+					"label": "Buscar por Identificacion",
+					"event": "buscarOperadorPorIdentificacion"
+				}
+			]
+		},
+		{ "menuTitle": "Usuario",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarUsuario"
+				},
+				{
+					"label": "Listar",
+					"event": "listarUsuario"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarUsuarioPorId"
+				},
+				{
+					"label": "Buscar por identificación",
+					"event": "buscarUsuarioPorIdentificacion"
+				}
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log AlohAndes",
+					"event": "mostrarLogParranderos"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de AlohAndes",
+					"event": "limpiarLogParranderos"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Parranderos",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+}
+	
